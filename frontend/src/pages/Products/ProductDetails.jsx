@@ -19,6 +19,7 @@ import moment from "moment";
 import HeartIcon from "./HeartIcon";
 import Ratings from "./Ratings";
 import ProductTabs from "./ProductTabs";
+import { addToCart } from "../../redux/features/cart/cartSlice"
 
 
 const ProductDetails = () => {
@@ -99,7 +100,7 @@ const ProductDetails = () => {
                 {product.description}
               </p>
 
-              <p className="text-5xl my-4 font-extrabold">$ {product.price}</p>
+              <p className="text-5xl my-4 font-extrabold">${product.price}</p>
 
               <div className="flex items-center justify-between w-[20rem]">
                 <div className="one">
@@ -159,7 +160,7 @@ const ProductDetails = () => {
                 <button
                   onClick={addToCartHandler}
                   disabled={product.countInStock === 0}
-                  className="bg-orange-600 text-white py-2 px-4 rounded-lg mt-4 md:mt-0"
+                  className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded-lg mt-4 md:mt-0"
                 >
                   Add To Cart
                 </button>

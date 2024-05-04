@@ -19,11 +19,11 @@ const AllProducts = () => {
     <div className="container mx-[4rem]">
         <div className="flex flex-col  md:flex-row">
           <div className="p-3">
-            <div className="flex flex-col items-center mb-12">
+            <div className="flex flex-col mb-12 ml-16">
                 <h1 className=" text-2xl font-semibold mt-4 mb-4">All Products ({products.length})</h1>
             </div>
           
-            <div className="flex flex-wrap justify-around items-center">
+            <div className="flex flex-wrap ml-16">
               {products.map((product) => (
                 <Link
                   key={product._id}
@@ -42,7 +42,7 @@ const AllProducts = () => {
                           {product?.name}
                         </h5>
 
-                        <p className="text-gray-400 text-xs">
+                        <p className="text-gray-400 text-xs ml-8">
                           {moment(product.createdAt).format("MMMM Do YYYY")}
                         </p>
                       </div>

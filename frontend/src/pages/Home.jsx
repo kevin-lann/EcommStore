@@ -1,10 +1,10 @@
 
 import { Link, useParams } from "react-router-dom"
-import { useGetProductsQuery } from "./redux/api/productApiSlice"
-import Loader from "./components/Loader.jsx"
-import Header from "./components/Header.jsx"
-import Message from "./components/Message.jsx"
-import Product from "./pages/Products/Product.jsx"
+import { useGetProductsQuery } from "../redux/api/productApiSlice.js"
+import Loader from "../components/Loader.jsx"
+import Header from "../components/Header.jsx"
+import Message from "../components/Message.jsx"
+import Product from "./Products/Product.jsx"
 
 const Home = () => {
 
@@ -23,7 +23,7 @@ const Home = () => {
                 </h1>
 
                 <Link to="/shop"
-                    className="bg-orange-600 font-bold rounded-full py-2 px-10 mr-[18rem] mt-[10rem]"    
+                    className="bg-orange-500 hover:bg-orange-600 text-white rounded-full py-2 px-10 mr-[18rem] mt-[10rem]"    
                 >
                     Shop
                 </Link>

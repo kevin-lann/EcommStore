@@ -31,7 +31,7 @@ const ProductCarousel = () => {
         <Message variant="danger">
             {error?.data?.message||error.message}
         </Message>
-    ) : (<Slider {...settings} className="xl: w-[50rem] lg:w-[50rem] md:w-[56rem] sm:w-[40rem] sm:block">
+    ) : (<Slider {...settings} className="xl: w-[45rem] lg:w-[40rem] md:w-[35rem] sm:w-[30rem] sm:block">
             {
                 products.map(({image, _id, name, price, description, brand, createdAt,
                      numReviews, rating, quantity, countInStock}) => (
@@ -42,14 +42,14 @@ const ProductCarousel = () => {
                                 className="w-fill rounded-lg object-cover h-[30rem] w-[56rem]"
                             />
 
-                            <div className="flex justify-between w-[50rem] mt-4 p-8 border rounded">
+                            <div className="flex justify-between w-[40rem] mt-4 p-8 border rounded">
                                 <div className="one">
                                     <h2>{name}</h2>
                                     <p>${price}</p>
-                                    <p className="w-[25rem]">{description.substring(0, 170)}...</p>
+                                    <p className="w-[16rem]">{description.substring(0, 170)}...</p>
                                 </div>
 
-                                <div className="flex justify-between w-[24rem]">
+                                <div className="flex justify-between w-[20rem]">
                                     <div className="one">
                                         <h1 className="flex items-center mb-6 w-[10rem]">
                                             <FaStore className="mr-2 text-black" /> Brand: {brand}

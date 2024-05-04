@@ -24,7 +24,7 @@ const ProductUpdate = () => {
   const [category, setCategory] = useState(productData?.category || "");
   const [quantity, setQuantity] = useState(productData?.quantity || "");
   const [brand, setBrand] = useState(productData?.brand || "");
-  const [stock, setStock] = useState(productData?.countInStock);
+  const [stock, setStock] = useState(productData?.countInStock || "");
 
   const navigate = useNavigate();
 
@@ -81,23 +81,14 @@ const ProductUpdate = () => {
       const data = await updateProduct({ productId: params._id, formData });
 
       if (data?.error) {
-        toast.error(data.error, {
-          position: toast.POSITION.TOP_RIGHT,
-          autoClose: 2000,
-        });
+        toast.error(data.error)
       } else {
-        toast.success(`Product successfully updated`, {
-          position: toast.POSITION.TOP_RIGHT,
-          autoClose: 2000,
-        });
+        toast.success(`Product successfully updated`)
         navigate("/admin/allproductslist");
       }
     } catch (err) {
       console.log(err);
-      toast.error("Product update failed. Try again.", {
-        position: toast.POSITION.TOP_RIGHT,
-        autoClose: 2000,
-      });
+      toast.error("Product update failed. Try again.")
     }
   };
 

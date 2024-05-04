@@ -12,6 +12,7 @@ import {
     useGetUserDetailsQuery,
     useUpdateUserMutation,
 } from '../../redux/api/usersApiSlice'
+import AdminMenu from "./AdminMenu"
 
 const UserList = () => {
 
@@ -60,7 +61,7 @@ const UserList = () => {
 
   return (
     <div className="p-4">
-        <h1 className="pl-[10rem] text-2xl font-semibold mt-4 mb-4">Manage Categories</h1>
+        <h1 className="pl-[10rem] text-2xl font-semibold mt-4 mb-4">Manage Users</h1>
         {isLoading 
         ? <Loader/> 
         : error 
@@ -164,6 +165,7 @@ const UserList = () => {
                 </table>
             </div>
         )}
+        <AdminMenu/>
     </div>
   )
 }
