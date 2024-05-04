@@ -1,4 +1,4 @@
-# E-Commerce Store Project
+# E-Commerce Store Project 🏪
 
 Full scale ecommerce store complete with the following:
 - Authentication, authorization
@@ -8,7 +8,9 @@ Full scale ecommerce store complete with the following:
 - Full buyer's flow from landing page to adding to cart to checkout
 - Advanced filtering
 
-![Thumbnail](/thumbnails/Screenshot_(1).png)
+![Thumbnail](/thumbnails/Screenshot(1).png)
+![Thumbnail](/thumbnails/Screenshot(4).png)
+![Thumbnail](/thumbnails/Screenshot(6).png)
 
 ### Technologies used:
 Frontend: 
@@ -39,3 +41,13 @@ Testing:
 ```
 npm run dev
 ```
+
+### Project screenshots
+![Thumbnail](/thumbnails/Screenshot(1).png)
+![Thumbnail](/thumbnails/Screenshot(4).png)
+![Thumbnail](/thumbnails/Screenshot(5).png)
+![Thumbnail](/thumbnails/Screenshot(6).png)
+![Thumbnail](/thumbnails/Screenshot(7).png)
+![Thumbnail](/thumbnails/Screenshot(8).png)
+![Thumbnail](/thumbnails/Screenshot(9).png)
+![Thumbnail](/thumbnails/Screenshot(11).png)
