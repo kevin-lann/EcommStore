@@ -8,6 +8,8 @@ Full scale ecommerce store complete with the following:
 - Full buyer's flow from landing page to adding to cart to checkout
 - Advanced filtering
 
+![Thumbnail](/thumbnails/Screenshot_(1).png)
+
 ### Technologies used:
 Frontend: 
 - ReactJS
