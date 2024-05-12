@@ -1,12 +1,14 @@
 # E-Commerce Store Project 🏪
 
-Full scale ecommerce store complete with the following:
+Full scale ecommerce store complete with the following features:
 - Authentication, authorization
 - Admin/user login and signup with password encryption
 - Admin dashboards and user management
 - Product pages and category management
 - Full buyer's flow from landing page to adding to cart to checkout
 - Advanced filtering
+- Secure payments usable by paypal accoutns
+- & more!
 
 ![Thumbnail](/thumbnails/Screenshot(1).png)
 ![Thumbnail](/thumbnails/Screenshot(4).png)
