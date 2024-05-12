@@ -7,7 +7,7 @@ Full scale ecommerce store complete with the following features:
 - Product pages and category management
 - Full buyer's flow from landing page to adding to cart to checkout
 - Advanced filtering
-- Secure payments usable by paypal accoutns
+- Secure payments usable by paypal accounts
 - & more!
 
 ![Thumbnail](/thumbnails/Screenshot(1).png)
