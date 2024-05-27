@@ -6,7 +6,7 @@ Full scale ecommerce store complete with the following features
 - Admin dashboards and user management
 - Product pages and category management
 - Full buyer's flow from landing page to adding to cart to checkout
-- Advanced filteringg
+- Advanced filtering
 - Secure payments usable by paypal accounts
 - & more!
 
