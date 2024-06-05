@@ -1,6 +1,6 @@
 # E-Commerce Store Project 🏪
 
-Full scale ecommerce store complete with the following features
+Full scale ecommerce store complete with the following features.
 - Authentication, authorization
 - Admin/user login and signup with password encryption
 - Admin dashboards and user management
