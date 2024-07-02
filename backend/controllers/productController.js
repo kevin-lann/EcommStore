@@ -145,8 +145,8 @@ const addProduct = asyncHandler(async (req, res) => {
         )
 
         if(alreadyReviewed) {
-          res.status(400)
-          throw new Error("Product already reviewed")
+          res.status(400).json({error: "Product already reviewed"})
+          return
         }
 
         const review = {
@@ -157,6 +157,7 @@ const addProduct = asyncHandler(async (req, res) => {
         }
 
         product.reviews.push(review)
+        product.numReviews += 1
 
         // avg review rating
         product.rating = (

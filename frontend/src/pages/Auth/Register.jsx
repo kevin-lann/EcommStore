@@ -138,7 +138,7 @@ const Register = () => {
         <img
         src="https://images.unsplash.com/photo-1576502200916-3808e07386a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2065&q=80"
         alt=""
-        className="h-[45rem] w-[56%] xl:block md:hidden sm:hidden rounded-lg"
+        className="h-[90vh] w-[64%] xl:block md:hidden sm:hidden rounded-lg"
         />
         
     </section>

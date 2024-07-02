@@ -55,26 +55,26 @@ const ProductCarousel = () => {
                                             <FaStore className="mr-2 text-black" /> Brand: {brand}
                                         </h1>
                                         <h1 className="flex items-center mb-6 w-[10rem]">
-                                            <FaClock className="mr-2 text-black" /> Added:{" "}
+                                            <FaClock className="mr-2 text-black" /> Added: {" "}
                                             {moment(createdAt).fromNow()}
                                         </h1>
                                         <h1 className="flex items-center mb-6 w-[10rem]">
-                                            <FaStar className="mr-2 text-black" /> Reviews:
+                                            <FaStar className="mr-2 text-black" /> Reviews: {" "}
                                             {numReviews}
                                         </h1>
                                     </div>
 
                                     <div className="two ml-8">
                                         <h1 className="flex items-center mb-6 w-[10rem]">
-                                            <FaStar className="mr-2 text-black" /> Ratings:{" "}
+                                            <FaStar className="mr-2 text-black" /> Ratings: {" "}
                                             {Math.round(rating)}
                                         </h1>
                                         <h1 className="flex items-center mb-6 w-[10rem]">
-                                            <FaShoppingCart className="mr-2 text-black" /> Quantity:{" "}
+                                            <FaShoppingCart className="mr-2 text-black" /> Quantity: {" "}
                                             {quantity}
                                         </h1>
                                         <h1 className="flex items-center mb-6 w-[10rem]">
-                                            <FaBox className="mr-2 text-black" /> In Stock:{" "}
+                                            <FaBox className="mr-2 text-black" /> In Stock: {" "}
                                             {countInStock}
                                         </h1>
                                     </div>
